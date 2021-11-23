@@ -1,0 +1,16 @@
+"filename", "language", "C++", "comment", "blank", "total"
+"d:\Projects\Coding\_computer-graphics\space-invaders\src\moxxi\component.cpp", "C++", 17, 0, 3, 20
+"d:\Projects\Coding\_computer-graphics\space-invaders\src\moxxi\core.cpp", "C++", 68, 10, 19, 97
+"d:\Projects\Coding\_computer-graphics\space-invaders\src\moxxi\debug.cpp", "C++", 14, 0, 4, 18
+"d:\Projects\Coding\_computer-graphics\space-invaders\src\moxxi\gameobject.cpp", "C++", 24, 0, 14, 38
+"d:\Projects\Coding\_computer-graphics\space-invaders\src\moxxi\material.cpp", "C++", 4, 0, 3, 7
+"d:\Projects\Coding\_computer-graphics\space-invaders\src\moxxi\mesh.cpp", "C++", 67, 0, 18, 85
+"d:\Projects\Coding\_computer-graphics\space-invaders\src\moxxi\object.cpp", "C++", 13, 0, 6, 19
+"d:\Projects\Coding\_computer-graphics\space-invaders\src\moxxi\physics2d.cpp", "C++", 0, 0, 1, 1
+"d:\Projects\Coding\_computer-graphics\space-invaders\src\moxxi\resource_manager.cpp", "C++", 133, 23, 21, 177
+"d:\Projects\Coding\_computer-graphics\space-invaders\src\moxxi\scene.cpp", "C++", 53, 0, 13, 66
+"d:\Projects\Coding\_computer-graphics\space-invaders\src\moxxi\scene_manager.cpp", "C++", 19, 0, 8, 27
+"d:\Projects\Coding\_computer-graphics\space-invaders\src\moxxi\shader.cpp", "C++", 121, 13, 8, 142
+"d:\Projects\Coding\_computer-graphics\space-invaders\src\moxxi\texture.cpp", "C++", 26, 11, 6, 43
+"d:\Projects\Coding\_computer-graphics\space-invaders\src\moxxi\transform.cpp", "C++", 22, 0, 8, 30
+"Total", "-", 581, 57, 132, 770

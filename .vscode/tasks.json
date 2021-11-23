@@ -1,0 +1,58 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "Build Demo Debug",
+			"command": "F:\\msys64\\mingw64\\bin\\g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g3",
+				"-lglfw3",
+				"-lOpenGL32",
+				"${cwd}\\src\\*.cpp",
+				"${cwd}\\src\\glad\\*",
+				"${cwd}\\src\\stbi\\*",
+				"-I${cwd}\\include",
+				"-L${cwd}\\libs",
+				"-o",
+				"${cwd}\\bin\\demo.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: F:\\msys64\\mingw64\\bin\\g++.exe"
+		},
+		{
+			"type": "cppbuild",
+			"label": "Build Final Demo",
+			"command": "F:\\msys64\\mingw64\\bin\\g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-lglfw3",
+				"-lOpenGL32",
+				"${cwd}\\src\\space-invaders\\*.cpp",
+				"${cwd}\\src\\moxxi\\*.cpp",
+				"${cwd}\\src\\glad\\*.c",
+				"${cwd}\\src\\stbi\\*",
+				"-I${cwd}\\include",
+				"-L${cwd}\\libs",
+				"-o",
+				"${cwd}\\bin\\demo.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"detail": "compiler: F:\\msys64\\mingw64\\bin\\g++.exe"		}
+	]
+}
